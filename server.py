@@ -26,7 +26,7 @@ try:
     f.write("%i\n" % os.getpid())
     f.close()
 
-    PORT = 8000
+    PORT = 9001
 
     Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
 
